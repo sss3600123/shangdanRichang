@@ -1,0 +1,5 @@
+<?php
+
+$arr = ['Zero', 'One', 'Three','Two'];
+
+var_dump(array_reverse($arr));
