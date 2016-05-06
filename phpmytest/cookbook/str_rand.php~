@@ -2,15 +2,21 @@
 
 /* --------------------------------------------------------------------------*/
 /**
-* @tianxiaolong  
+* @tianxiaolong
 *
 * @Param $length
 * @Param $characters
 *
-* @Returns   
+* @Returns
 * mt_rand() 梅森旋转算法，比rand 快4倍
  */
 /* ----------------------------------------------------------------------------*/
+/**
+ * [str_rand description]
+ * @param  integer $length     [description]
+ * @param  string  $characters [description]
+ * @return [type]              [description]
+ */
 function str_rand($length = 32, $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
 {
 	if (!is_int($length) || $length < 0) {

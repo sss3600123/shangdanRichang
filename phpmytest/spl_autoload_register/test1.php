@@ -1,0 +1,10 @@
+<?php
+
+class Apple
+{
+	public function __construct()
+	{
+		echo "Got Apple Class";
+	}
+
+}
